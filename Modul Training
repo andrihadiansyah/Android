@@ -1,0 +1,30 @@
+Buat aplikasi android dengan spesifikasi
+1. Mempunyai 7 halaman (format bebas boleh pakai navigation menu, boleh pakai tab menu, boleh pakai button intent)
+2. Halaman pertama
+    • Dapat menampilkan foto dengan source dari internet (source bebas)
+    • Menampilkan floatingbutton
+    • Kalau floatingbutton diklik bisa menampilkan animasi simple (bisa bounce, fade in ,fade out, dsb.)
+3. Halaman kedua
+    • Membuat camera dan menampilkan hasilnya
+    • Mengambil foto dari gallery dan menampilkan hasilnya
+4. Halaman ketiga
+    • Membuat form (field menyesuaikan dengan data json) dan satu button
+    • Menampilkan data dari json ke dalam form
+    • Memunculkan alert dialog ketika klik button, dengan atribut alert dialog terdapat positive button dan negative button, ketika ditekan positive button akan menampilkan toast, sedangkan ketika ditekan negative button akan menutup alert dialog dan menampilkan snackbar
+    • Data json bisa diambil dari sini: http://orangesvr1.hiyoto.com/svarga/services.php?page=view_week&id=1
+    • Cukup ambil id, week_number, date_start, date_end
+5. Halaman ke empat
+    • Membuat 1 buat textview dan listview dibawahnya
+    • Menampilkan data json ke dalam listview
+    • Ketika listview diklik data ditampilkan ke dalam textview berdasarkan item yg dipilih
+    • Data json bisa diambil dari sini: http://orangesvr1.hiyoto.com/svarga/services.php?page=view_week&id=no
+    • Tampilkan id, week_number, date_start, date_end disetiap listview item
+6. Halaman ke 5, menampilkan website ke dalam webview
+7. Halaman ke 6
+    • Membuat 2 buat textview dan satu buah button
+    • Ketika button diklik akan mendeteksi apakah gps aktif atau tidak, jika tidak maka keluar alert dan fungsi untuk menuju ke pengaturan gps, jika gps sudah aktif ketika button diklik makan akan memunculkan koordinat longitude dan latitude pada textview yang sudah dibuat sebelumnya
+8. Halaman ke-7
+    • Membuat form dengan field nama dan nik, serta 1 buah button, dengan dibawahnya terdapat listview
+    • Setelah field diisi, ketika button diklik maka akan menyimpan kedalam database sql lite
+    • Listview dibawah button menampilkan data dari sql lite
+    • Kasih effect sound ketika button diklik
