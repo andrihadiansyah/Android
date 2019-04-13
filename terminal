@@ -1,0 +1,27 @@
+#call git
+git
+
+#inisialisasi 
+git remote add origin https://gitlab.com/andrihadiansyah1122/android.git
+
+#menambahkan updatetan
+git add .
+
+#untuk commit masuk ke gitlab email & name
+#check pertama
+git commit -m "ini training"
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+#ngecek file sebelum di reupload
+git status
+
+#check kedua
+$ git commit -m "ini training"
+
+#ingin menambahkan
+git add .
+
+#3
+git push origin master
