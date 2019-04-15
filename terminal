@@ -1,7 +1,7 @@
 #call git
 git
 
-#inisialisasi 
+#inisialisasi dari source gitlab/github
 git remote add origin https://gitlab.com/andrihadiansyah1122/android.git
 
 #menambahkan updatetan
