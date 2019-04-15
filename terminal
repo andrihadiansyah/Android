@@ -12,16 +12,16 @@ git add .
 
 #untuk commit masuk ke gitlab email & name
 #check pertama
-git commit -m "ini training"
+git commit -am "declare"
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+git config --global user.email "andrihadiansyah1122@gmail.com"
+git config --global user.name "andrihadiansyah1122"
 
 #ngecek file sebelum di reupload
 git status
 
 #check kedua
-$ git commit -m "ini training"
+git commit -am "declare"
 
 #ingin menambahkan
 git add .
