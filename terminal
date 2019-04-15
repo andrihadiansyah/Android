@@ -1,6 +1,9 @@
 #call git
 git
 
+#second
+git init
+
 #inisialisasi dari source gitlab/github
 git remote add origin https://gitlab.com/andrihadiansyah1122/android.git
 
