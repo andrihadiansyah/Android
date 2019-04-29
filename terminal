@@ -28,3 +28,8 @@ git add .
 
 #3
 git push origin master
+
+
+
+#ambil updaten
+git pull origin master
