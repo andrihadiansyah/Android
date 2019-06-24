@@ -31,5 +31,8 @@ git push origin master
 
 
 
-#ambil updaten
+#ambil updatan yang beres di gawein
 git pull origin master
+
+# setelah di pull baru download dengan clone
+git clone https://gitlab.com/andrihadiansyah1122/salesforceautomation.git #pastelink
